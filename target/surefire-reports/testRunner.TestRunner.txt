@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.875 sec <<< FAILURE!
+Verify that user can successfully create an appointment(Login feature)  Time elapsed: 0.431 sec  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefinition.AppointmentSteps.userVisitsTheUrl(AppointmentSteps.java:24)
+	at ?.user visits the url(file:///E:/SeleniumProject/Demo/src/test/java/features/Appointment.feature:4)
+
+Verify that user can successfully cancel this appointment(Login feature)  Time elapsed: 0.072 sec  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefinition.AppointmentSteps.userVisitsTheUrl(AppointmentSteps.java:24)
+	at ?.user visits the url(file:///E:/SeleniumProject/Demo/src/test/java/features/Appointment.feature:4)
+
